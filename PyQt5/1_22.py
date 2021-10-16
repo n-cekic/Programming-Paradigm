@@ -42,7 +42,7 @@ class Gui(QtWidgets.QWidget):
         leva=float(self.text1.text())
         desna=float(self.text2.text())
 
-        x=numpy.arange(leva,desna+1)
+        x=numpy.arange(leva,desna+1,.1)
         y=numpy.log(x)
 
         pyplot.title("logaritamska funkcija")
